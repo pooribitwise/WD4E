@@ -1,0 +1,28 @@
+html, body {
+    background-color: #ffe4c4;
+}
+
+a {
+    position: absolute;
+    text-decoration: none;
+    font-size: 4em;
+    font-weight: bold;
+    color: black;
+    padding: 1.5% 4%;
+    background-color: #007f00;
+    border: 3px solid black;
+    border-radius: 20px;
+    top: 10%;
+    left: 10%
+}
+
+a:hover {
+    top: inherit;
+    left: inherit;
+    bottom: 10%;
+    right: 10%;
+    transform: rotate(180deg);
+    background-color: #7f0000;
+    color: white;
+    border: 3px solid white;
+}

@@ -1,0 +1,48 @@
+html, body {
+    background-color: #ffe4c4;
+}
+
+div {
+    margin-top: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 6em;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    font-size: 4em;
+    font-weight: bold;
+    color: black;
+    padding: 20px 50px;
+    background-color: #007f00;
+    border: 3px solid black;
+    border-radius: 20px;
+    transition-property: color, background-color, border;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    transition-delay: 0.1s;
+}
+
+a:hover {
+    background-color: #ffcf00;
+    color: white;
+    border: 3px solid white;
+}
+
+.won {
+    display: inline-block;
+    color: #00af00;
+    transition-property: transform, color;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition-delay: 0.1s;
+}
+
+.won:hover {
+    color: #ffcf00;
+    transform: rotate(360deg);
+}
